@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .rectangle {
+            height: 200px;
+            width: 240px;
+            border-radius: 1px;
+            outline: 2px solid black;
+        }
+
+        .container {
+            position: fixed;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 10ex;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="rectangle"></div>
+        <div class="rectangle"></div>
+        <div class="rectangle"></div>
+    </div>
+</body>
+
+</html>
